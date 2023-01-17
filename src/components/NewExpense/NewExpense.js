@@ -10,7 +10,6 @@ const NewExpense = (props) => {
       id: Math.random().toString,
     };
     props.addExpense(expenseDetails);
-    s;
   };
   return (
     <div className="new-expense">
